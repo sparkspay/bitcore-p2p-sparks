@@ -1,0 +1,42 @@
+{
+  "name": "bitcore-p2p-sparks",
+  "version": "1.1.6",
+  "description": "Interface to the sparks P2P network for sparkscore",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test:node",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "z3r0 m0r4k",
+      "email": "m0r4k@outlook.com"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "sparkscore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sparkspay/sparkscore-p2p.git"
+  },
+  "dependencies": {
+    "bitcore-lib-sparks": "git+https://github.com/sparkspay/bitcore-lib-sparks.git#master",
+    "bloom-filter": "^0.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^0.3.6"
+  },
+  "devDependencies": {
+    "bitcore-build-sparks": "sparkspay/bitcore-build-sparks",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
